@@ -1,4 +1,41 @@
 :root {
-    --color-brand: #733729;
-    --color-contrast: #D9BBA0;
+  --color-brand: #733729;
+  --color-contrast: #d9bba0;
+}
+
+body {
+  background-image: url(img/pawns.jpg);
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    position: static;
+  }
+}
+
+.nav-link {
+  font-size: 26px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: var(--color-brand);
+}
+
+.btn-primary {
+  background-color: var(--color-contrast);
+  color: var(--color-brand);
+  border-color: var(--color-brand);
+}
+
+.btn-primary:hover {
+  background-color: var(--color-brand);
+  color: var(--color-contrast);
+  border-color: var(--color-contrast);
+}
+
+.container {
+  padding: 0;
+}
+#carousel-fotos {
+  margin: 0 auto;
 }
