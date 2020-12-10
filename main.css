@@ -7,7 +7,7 @@ body {
   background-image: url(img/pawns.jpg);
 }
 
-@media (max-width: 768px) {
+@media (max-width: 576px) {
   .navbar {
     position: static;
   }
